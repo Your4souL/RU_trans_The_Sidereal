@@ -16,7 +16,7 @@
   },
   "shapes:Shield": {
     "NAME": "Барьер",
-    "DESCRIPTION": "Враг теряет !M! силы до конца своего хода."
+    "DESCRIPTION": "Враг теряет !M! Cилы до конца своего хода."
   },
   "shapes:Sunrise": {
     "NAME": "Восход",
@@ -88,7 +88,8 @@
   },
   "shapes:Pluto": {
     "NAME": "Плутон",
-    "DESCRIPTION": "Эфирная. NL Потеряйте !M! Силы. NL Все враги теряют !M! Силы. NL Даёт !shapes:UrMagic! shapes:Неуловимость, когда Сжигается.",
+    "DESCRIPTION": "Эфирная. NL Отнимает !M! Силы. NL Все враги теряют !M! Силы. NL Даёт !shapes:UrMagic! shapes:Неуловимость, когда Сжигается.",
+    "UPGRADE_DESCRIPTION": "Эфирная. NL Отнимает !M! Силы. NL Все враги теряют !M! Силы. NL Даёт !shapes:UrMagic! shapes:Неуловимости, когда Сжигается.",
     "EXTENDED_DESCRIPTION": [
       "Я не могу разыграть эту карту!"
     ]
@@ -128,7 +129,7 @@
   },
   "shapes:TheWhirling": {
     "NAME": "Завихрение",
-    "DESCRIPTION": "Вы берёте 1 карту. NL Если она shapes:вращается, shapes:Призовите *Юпитер."
+    "DESCRIPTION": "Вы берёте 1 карту. NL Если она shapes:вращается, shapes:Призывает *Юпитер."
   },
   "shapes:Orrery": {
     "NAME": "Оррери",
@@ -179,16 +180,16 @@
   },
   "shapes:Invocation": {
     "NAME": "Призывание",
-    "DESCRIPTION": "shapes:Призовите 1 случайную shapes:Планету. NL Сжигается.",
-    "UPGRADE_DESCRIPTION": "shapes:Призовите 1 случайную shapes:Планету. NL Она стоит на 1 меньше в этом бою. NL Сжигается."
+    "DESCRIPTION": "shapes:Призывает 1 случайную shapes:Планету. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "shapes:Призывает 1 случайную shapes:Планету. NL Она стоит на 1 меньше в этом бою. NL Сжигается."
   },
   "shapes:Quicksilver": {
     "NAME": "Ртуть",
-    "DESCRIPTION": "Наносит !D! урона. NL shapes:Призовите *Меркурий. NL Сжигается."
+    "DESCRIPTION": "Наносит !D! урона. NL shapes:Призывает *Меркурий. NL Сжигается."
   },
   "shapes:LoveAndWar": {
     "NAME": "Любовь это Война",
-    "DESCRIPTION": "Даёт !B! Защиты. NL Наносит !D! урона. NL shapes:Призовите *Венеру и *Марс. NL Сжигается."
+    "DESCRIPTION": "Даёт !B! Защиты. NL Наносит !D! урона. NL shapes:Призывает *Венеру и *Марс. NL Сжигается."
   },
   "shapes:RacingRock": {
     "NAME": "Гонки Комет",
@@ -196,7 +197,7 @@
   },
   "shapes:RingedShield": {
     "NAME": "Окольцованный Щит",
-    "DESCRIPTION": "Даёт !B! Защиты. NL shapes:Призовите *Сатурн. NL Сжигается."
+    "DESCRIPTION": "Даёт !B! Защиты. NL shapes:Призывает *Сатурн. NL Сжигается."
   },
   "shapes:Revolver": {
     "NAME": "Транзит",
@@ -245,25 +246,25 @@
   },
   "shapes:RedSpot": {
     "NAME": "Красное Пятно",
-    "DESCRIPTION": "Накладывает !shapes:UrMagic! Уязвимости на ВСЕХ врагов. NL Сжигает !M! выбранные карты в руке. NL shapes:Призовите *Юпитер. NL Сжигается.",
-    "UPGRADE_DESCRIPTION": "Накладывает !shapes:UrMagic! Уязвимости на ВСЕХ врагов. NL Сжигает до !M! выбранных карт в руке. NL shapes:Призовите *Юпитер. NL Сжигается."
+    "DESCRIPTION": "Накладывает !shapes:UrMagic! Уязвимости на ВСЕХ врагов. NL Сжигает !M! выбранные карты в руке. NL shapes:Призывает *Юпитер. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Накладывает !shapes:UrMagic! Уязвимости на ВСЕХ врагов. NL Сжигает до !M! выбранных карт в руке. NL shapes:Призывает *Юпитер. NL Сжигается."
   },
   "shapes:WaveField": {
     "NAME": "Волновое Поле",
-    "DESCRIPTION": "Накладывает !M! Слабости на ВСЕХ врагов. NL shapes:Призовите *Уран. NL Сжигается.",
-    "UPGRADE_DESCRIPTION": "Накладывает !M! Слабости на ВСЕХ врагов. NL shapes:Призовите *Уран+. NL Сжигается."
+    "DESCRIPTION": "Накладывает !M! Слабости на ВСЕХ врагов. NL shapes:Призывает *Уран. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Накладывает !M! Слабости на ВСЕХ врагов. NL shapes:Призывает *Уран+. NL Сжигается."
   },
   "shapes:DeadAir": {
     "NAME": "Мёртвый Воздух",
-    "DESCRIPTION": "Наносит !D! урона ВСЕМ врагам. NL shapes:Призовите *Нептун. NL Сжигается."
+    "DESCRIPTION": "Наносит !D! урона ВСЕМ врагам. NL shapes:Призывает *Нептун. NL Сжигается."
   },
   "shapes:SkySword": {
     "NAME": "Небесный Меч",
-    "DESCRIPTION": "Наносит !D! урона. NL shapes:Призовите *Марс. NL Сжигается."
+    "DESCRIPTION": "Наносит !D! урона. NL shapes:Призывает *Марс. NL Сжигается."
   },
   "shapes:FrozenHollow": {
     "NAME": "Леденящая Пустота",
-    "DESCRIPTION": "Даёт 1 shapes:Неуловимость если начинаете ход shapes:Ночью. NL shapes:Призовите *Плутон."
+    "DESCRIPTION": "Даёт 1 shapes:Неуловимость если начинаете ход shapes:Ночью. NL shapes:Призывает *Плутон."
   },
   "shapes:Astrolabe": {
     "NAME": "Астролябия",
@@ -279,11 +280,11 @@
   },
   "shapes:Flood": {
     "NAME": "Наводнение",
-    "DESCRIPTION": "Вы берёте !M! карты. NL shapes:Призовите *Нептун. NL Сжигается."
+    "DESCRIPTION": "Вы берёте !M! карты. NL shapes:Призывает *Нептун. NL Сжигается."
   },
   "shapes:MoltenMarble": {
     "NAME": "Литой Мрамор",
-    "DESCRIPTION": "Эфирная. NL shapes:Призовите *Меркурий. NL shapes:Призовите *Плутон, когда Сжигается."
+    "DESCRIPTION": "Эфирная. NL shapes:Призывает *Меркурий. NL shapes:Призывает *Плутон, когда Сжигается."
   },
   "shapes:Supersonic": {
     "NAME": "Сверхзвук",
@@ -300,8 +301,8 @@
   },
   "shapes:Homeland": {
     "NAME": "Родина",
-    "DESCRIPTION": "shapes:Призовите *Землю. NL Сжигается.",
-    "UPGRADE_DESCRIPTION": "shapes:Призовите *Землю+. NL Сжигается."
+    "DESCRIPTION": "shapes:Призывает *Землю. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "shapes:Призывает *Землю+. NL Сжигается."
   },
   "shapes:NightBlindness": {
     "NAME": "Ночная Слепота",
@@ -334,7 +335,7 @@
   "shapes:HeavensGate": {
     "NAME": "Врата в Рай",
     "DESCRIPTION": "Даёт !M! Защиты за каждый shapes:Призванный тип shapes:Планет в конце вашего хода.",
-    "UPGRADE_DESCRIPTION": "shapes:Призовите *Сатурн. NL Даёт !M! Защиты за каждый shapes:Призванный тип shapes:Планет в конце вашего хода."
+    "UPGRADE_DESCRIPTION": "shapes:Призывает *Сатурн. NL Даёт !M! Защиты за каждый shapes:Призванный тип shapes:Планет в конце вашего хода."
   },
   "shapes:BodyStrike": {
     "NAME": "Удар Телом",
@@ -443,7 +444,7 @@
   },
   "shapes:CosmicSlide": {
     "NAME": "Космо-скольжение",
-    "DESCRIPTION": "Восполняет !M! HP. NL shapes:Призовите *Венеру. NL Сжигается."
+    "DESCRIPTION": "Восполняет !M! HP. NL shapes:Призывает *Венеру. NL Сжигается."
   },
   "shapes:Disregard": {
     "NAME": "Игнорировать",
