@@ -1,4 +1,4 @@
-Русский перевод для мода Slay the Spire под названием Somnambulantmod от автора Frugi Lentesco
+Русский перевод для мода Slay the Spire под названием The Sidereal от автора Frugi Lentesco
 
 
 Инструкция по установке
