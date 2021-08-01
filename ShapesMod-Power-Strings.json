@@ -22,7 +22,7 @@
   "shapes:HeavensGatePower": {
     "NAME": "Врата в рай",
     "DESCRIPTIONS": [
-      "Даёт #b%1$s Защиты за каждый #yПризванный тип #yПланет в конце вашего хода."
+      "Даёт #b%1$s #bЗащиты за каждый #yПризванный тип #yПланет в конце вашего хода."
     ]
   },
   "shapes:SolarBatteryPower": {
@@ -40,13 +40,13 @@
   "shapes:AstrolabePower": {
     "NAME": "Астролябия",
     "DESCRIPTIONS": [
-      "Когда вы #yПризываете a #yПланету, вы берёте #b%1s карту."
+      "Когда вы #yПризываете #yПланету, вы берёте #b%1s карту."
     ]
   },
   "shapes:SwirlingShieldPower": {
     "NAME": "Вихревой щит",
     "DESCRIPTIONS": [
-      "Даёт #b%1s Защиты, когда вы играете #yПланету."
+      "Даёт #b%1s #bЗащиты, когда вы разыгрываете #yПланету."
     ]
   },
   "shapes:EndTimesPower": {
@@ -86,7 +86,7 @@
     ]
   },
   "shapes:CenterpointPower": {
-    "NAME": "Centerpoint",
+    "NAME": "Центр Обращения",
     "DESCRIPTIONS": [
       "Ваши #yПланеты #yВращаются."
     ]
