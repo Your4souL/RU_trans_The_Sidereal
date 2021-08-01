@@ -1,0 +1,477 @@
+{
+  "shapes:Strike": {
+    "NAME": "Удар",
+    "DESCRIPTION": "Наносит !D! урона."
+  },
+  "shapes:Defend": {
+    "NAME": "Оборона",
+    "DESCRIPTION": "Даёт !B! Защиты."
+  },
+  "shapes:Vertigo": {
+    "NAME": "Смятение",
+    "DESCRIPTION": "Неиграбельная.",
+    "EXTENDED_DESCRIPTION": [
+      "Я не могу сыграть эту карту!"
+    ]
+  },
+  "shapes:Shield": {
+    "NAME": "Барьер",
+    "DESCRIPTION": "Враг теряет !M! силы до конца своего хода."
+  },
+  "shapes:Sunrise": {
+    "NAME": "Восход",
+    "DESCRIPTION": "Неиграбельная. NL Эфирная. NL Меняет время на shapes:День, когда Сжигается.",
+    "EXTENDED_DESCRIPTION": [
+      "Я не могу сыграть эту карту!"
+    ]
+  },
+  "shapes:Nightfall": {
+    "NAME": "Закат",
+    "DESCRIPTION": "Неиграбельная. NL Эфирная. NL Меняет время на shapes:Ночь, когда Сжигается.",
+    "EXTENDED_DESCRIPTION": [
+      "Я не могу сыграть эту карту!"
+    ]
+  },
+  "shapes:Recharge": {
+    "NAME": "Перезарядка",
+    "DESCRIPTION": "Даёт !B! Защиты. NL Даёт [E] [E] [E] в след. ходу.",
+    "UPGRADE_DESCRIPTION": "Даёт !B! Защиты. NL Даёт [E] [E] [E] [E] в след. ходу."
+  },
+  "shapes:Mercury": {
+    "NAME": "Меркурий",
+    "DESCRIPTION": "Эфирная. NL Наносит !D! урона ВСЕМ врагам дважды. NL Добавляет *Ожог в стопку добора, когда Сжигается."
+  },
+  "shapes:Uranus": {
+    "NAME": "Уран",
+    "DESCRIPTION": "Эфирная. Добавляет в руку случайную shapes:Призывающую карту. NL В этом ходу она стоит 0. NL Добавляет *Бездну в стопку добора, когда Сжигается.",
+    "UPGRADE_DESCRIPTION": "Эфирная. Добавляет в руку случайную shapes:Призывающую карту. NL В этом ходу она стоит 0."
+  },
+  "shapes:Venus": {
+    "NAME": "Венера",
+    "DESCRIPTION": "Эфирная. NL Накладывает !M! Слабости и !M! Уязвимости. NL Отнимает !shapes:UrMagic! ОЗ. NL Даёт !shapes:MetaMagic! Слабости, когда Сжигается."
+  },
+  "shapes:Jupiter": {
+    "NAME": "Юпитер",
+    "DESCRIPTION": "Эфирная. Накладывает !shapes:MetaMagic! shapes:Вращение на эту карту. NL Когда shapes:вращается, даёт [E] [E] [E]. NL Добавляет *Смятение в стопку добора, когда Сжигается.",
+    "EXTENDED_DESCRIPTION": [
+      "Я не могу сыграть эту карту!"
+    ]
+  },
+  "shapes:Comet": {
+    "NAME": "Комета",
+    "DESCRIPTION": "Эфирная. Неиграбельная. NL Когда shapes:вращается, наносит !D! урона случайному врагу и сбрасывается.",
+    "UPGRADE_DESCRIPTION": "Эфирная. Неиграбельная. NL Когда shapes:вращается, наносит !D! урона случайному врагу и сбрасывается.",
+    "EXTENDED_DESCRIPTION": [
+      "Я не могу сыграть эту карту!"
+    ]
+  },
+  "shapes:Earth": {
+    "NAME": "Земля",
+    "DESCRIPTION": "Даёт !shapes:UrMagic! Ловкости. NL Даёт !M! Ловкости, когда Сжигается. NL Добавляет *Смятение в стопку добора, когда вы берёте эту карту.",
+    "UPGRADE_DESCRIPTION": "Оставляется. NL Даёт !shapes:UrMagic! Ловкости. NL Даёт !M! Ловкости, когда Сжигается. NL Добавляет *Смятение в стопку добора, когда вы берёте эту карту.",
+    "EXTENDED_DESCRIPTION": [
+      "Я не могу сыграть эту карту!"
+    ]
+  },
+  "shapes:Saturn": {
+    "NAME": "Сатурн",
+    "DESCRIPTION": "Эфирная. NL Даёт !B! Защиты. NL Получите !M! урона, когда Сжигается."
+  },
+  "shapes:Neptune": {
+    "NAME": "Нептун",
+    "DESCRIPTION": "Эфирная. NL Вы предсказываете !M! карты. NL Вы берёте !M! карты. NL В след. ходу вы возьмёте на !shapes:UrMagic! карту меньше, если Сжигается.",
+    "UPGRADE_DESCRIPTION": "Эфирная. NL Вы предсказываете !M! карт. NL Вы берёте !M! карт. NL В след. ходу вы возьмёте на !shapes:UrMagic! карту меньше, если Сжигается."
+  },
+  "shapes:AxisSmash": {
+    "NAME": "Сдвиг Оси",
+    "DESCRIPTION": "Наносит !D! урона. NL Накладывает !M! shapes:Вращение на все карты в руке."
+  },
+  "shapes:Pluto": {
+    "NAME": "Плутон",
+    "DESCRIPTION": "Эфирная. NL Потеряйте !M! Силы. NL Все враги теряют !M! Силы. NL Даёт !shapes:UrMagic! shapes:Неуловимость, когда Сжигается.",
+    "EXTENDED_DESCRIPTION": [
+      "Я не могу сыграть эту карту!"
+    ]
+  },
+  "shapes:Mars": {
+    "NAME": "Марс",
+    "DESCRIPTION": "Эфирная. NL Даёт !shapes:UrMagic! Силы за каждую shapes:Призванную shapes:Планету. NL Даёт shapes:Опутанность, когда Сжигается.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Даёт !M! Силы.)"
+    ]
+  },
+  "shapes:WhipLash": {
+    "NAME": "Стегнуть Плетью",
+    "DESCRIPTION": "Наносит !D! урона. NL Накладывает !M! shapes:Вращения на верхнюю карту в стопке добора.",
+    "UPGRADE_DESCRIPTION": "Наносит !D! урона. NL Накладывает бесконечное shapes:Вращение на верхнюю карту в стопке добора."
+
+  },
+  "shapes:Align": {
+    "NAME": "Парад Планет",
+    "DESCRIPTION": "Вы разыгрываете ВСЕ shapes:Планеты в стопке добора. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Вы разыгрываете ВСЕ shapes:Планеты в стопке добора."
+  },
+  "shapes:Pulsar": {
+    "NAME": "Пульсар",
+    "DESCRIPTION": "Накладывает !M! shapes:Слепоты на ВСЕХ врагов в начале каждого вашего хода."
+  },
+  "shapes:APrayer": {
+    "NAME": "Мольба",
+    "DESCRIPTION": "Даёт !shapes:UrMagic! Ловкости за каждый Сожженный вид shapes:Планет. NL Сжигается.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Даёт !M! Ловкости.)"
+    ]  
+  },
+  "shapes:FlareUp": {
+    "NAME": "Вспышка",
+    "DESCRIPTION": "Наносит !D! урона случайному врагу Х раз."
+  },
+  "shapes:TheWhirling": {
+    "NAME": "Завихрение",
+    "DESCRIPTION": "Вы берёте 1 карту. NL Если она shapes:вращается, shapes:Призовите *Юпитер."
+  },
+  "shapes:Orrery": {
+    "NAME": "Оррери",
+    "DESCRIPTION": "Накладывает !M! shapes:Вращение на эту карту. NL Когда shapes:вращается, даёт !B! Защиты."
+  },
+  "shapes:Nebula": {
+    "NAME": "Туманность",
+    "DESCRIPTION": "Эфирная. NL Добавляет в стопку добора !M! карту *Комета в конце каждого вашего хода.",
+    "UPGRADE_DESCRIPTION": "Добавляет в стопку добора !M! карту *Комета в конце каждого вашего хода."
+  },
+  "shapes:DeadOfNight": {
+    "NAME": "Глухая Ночь",
+    "DESCRIPTION": "Наносит !D! урона. NL Даёт !shapes:UrMagic! Силы за каждый Сожженный вид shapes:Планет.",
+    "UPGRADE_DESCRIPTION": "Наносит !D! урона. NL Даёт !shapes:UrMagic! Силы за каждый Сожженный вид shapes:Планет.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Даёт !M! Силы.)"
+    ]
+  },
+  "shapes:Darksaber": {
+    "NAME": "Тёмная Сабля",
+    "DESCRIPTION": "Наносит !D! урона. NL Если вы имеете отриц. эффекты, получите !M! Силы."
+  },
+  "shapes:SunsetSmash": {
+    "NAME": "Закатный Погром",
+    "DESCRIPTION": "Даёт !B! Защиты. NL Наносит !D! урона."
+  },
+  "shapes:TwilightDance": {
+    "NAME": "Сумеречный Танец",
+    "DESCRIPTION": "shapes:Подождите. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "shapes:Подождите."
+  },
+  "shapes:CloudCoat": {
+    "NAME": "Облачный Плащ",
+    "DESCRIPTION": "Даёт !B! Защиты. NL Вы берёте карту за каждую shapes:Планету в руке."
+  },
+  "shapes:CenterMass": {
+    "NAME": "Центр Масс",
+    "DESCRIPTION": "Даёт !B! Защиты."
+  },
+  "shapes:VisionOfHeaven": {
+    "NAME": "Видения о Рае",
+    "DESCRIPTION": "Накладывает !M! shapes:Слепоты на ВСЕХ врагов. NL shapes:Подождите. NL Сжигается."
+  },
+  "shapes:Insomnia": {
+    "NAME": "Бессонница",
+    "DESCRIPTION": "Вы берёте !M! карты, когда shapes:Ждёте.",
+    "UPGRADE_DESCRIPTION": "Вы берёте !M! карты, когда shapes:Ждёте."
+  },
+  "shapes:Invocation": {
+    "NAME": "Призывание",
+    "DESCRIPTION": "shapes:Призовите 1 случайную shapes:Планету. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "shapes:Призовите 1 случайную shapes:Планету. NL Она стоит на 1 меньше в этом бою. NL Сжигается."
+  },
+  "shapes:Quicksilver": {
+    "NAME": "Ртуть",
+    "DESCRIPTION": "Наносит !D! урона. NL shapes:Призовите *Меркурий. NL Сжигается."
+  },
+  "shapes:LoveAndWar": {
+    "NAME": "Любовь это Война",
+    "DESCRIPTION": "Даёт !B! Защиты. NL Наносит !D! урона. NL shapes:Призовите *Венеру и *Марс. NL Сжигается."
+  },
+  "shapes:RacingRock": {
+    "NAME": "Гонки Комет",
+    "DESCRIPTION": "Добавляет !M! *Кометы в стопку добора. NL Сжигается."
+  },
+  "shapes:RingedShield": {
+    "NAME": "Окольцованный Щит",
+    "DESCRIPTION": "Даёт !B! Защиты. NL shapes:Призовите *Сатурн. NL Сжигается."
+  },
+  "shapes:Revolver": {
+    "NAME": "Транзит",
+    "DESCRIPTION": "Вы разыгрываете верхнюю shapes:Планету в стопке добора."
+  },
+  "shapes:DrawCloser": {
+    "NAME": "Сближение",
+    "DESCRIPTION": "Улучшите ВСЕ shapes:Планеты до конца боя. NL Сжигается."
+  },
+  "shapes:HeatDeath": {
+    "NAME": "Тепловая Смерть",
+    "DESCRIPTION": "Наносит !D! урона ВСЕМ врагам. NL shapes:Подождите. NL shapes:День никогда не настанет.  NL Сжигается."
+  },
+  "shapes:RedGiant": {
+    "NAME": "Красный Гигант",
+    "DESCRIPTION": "shapes:Планеты стоят 0 и Сжигаются при использовании."
+  },
+  "shapes:MakeContact": {
+    "NAME": "Наладить Контакт",
+    "DESCRIPTION": "Эфирная. NL Вы берёте X дополнительных карт в начале вашего хода.",
+    "UPGRADE_DESCRIPTION": "Вы берёте X дополнительных карт в начале вашего хода."
+  },
+  "shapes:SunshineWalk": {
+    "NAME": "Прогулка в Полдень",
+    "DESCRIPTION": "Даёт !B! Защиты. NL Вы берёте !shapes:UrMagic! карту. NL Добавляет !M! *Ожог в стопку добора."
+  },
+  "shapes:CentrifugalForce": {
+    "NAME": "Центробежная Сила",
+    "DESCRIPTION": "Наносит !D! урона. NL Добавляет *Комету в стопку добора."
+  },
+  "shapes:DualNature": {
+    "NAME": "Дульная Натура",
+    "DESCRIPTION": "Даёт !B! Защиты дважды."
+  },
+  "shapes:EllipticSwing": {
+    "NAME": "Эллиптический Замах",
+    "DESCRIPTION": "Наносит !D! урона ВСЕМ врагам. NL Добавляет *Комету в стопку добора."
+  },
+  "shapes:TwinSlice": {
+    "NAME": "Двойной Надрез",
+    "DESCRIPTION": "Наносит !D! урона дважды. NL Вы берёте !M! карты."
+  },
+  "shapes:CloudOfAsh": {
+    "NAME": "Облако Пепла",
+    "DESCRIPTION": "Даёт !B! Защиты. NL Сжигает ВСЕ shapes:Планеты в стопке добора."
+  },
+  "shapes:RedSpot": {
+    "NAME": "Красное Пятно",
+    "DESCRIPTION": "Накладывает !shapes:UrMagic! Уязвимости на ВСЕХ врагов. NL Сжигает !M! выбранные карты в руке. NL shapes:Призовите *Юпитер. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Накладывает !shapes:UrMagic! Уязвимости на ВСЕХ врагов. NL Сжигает до !M! выбранных карт в руке. NL shapes:Призовите *Юпитер. NL Сжигается."
+  },
+  "shapes:WaveField": {
+    "NAME": "Волновое Поле",
+    "DESCRIPTION": "Накладывает !M! Слабости на ВСЕХ врагов. NL shapes:Призовите *Уран. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Накладывает !M! Слабости на ВСЕХ врагов. NL shapes:Призовите *Уран+. NL Сжигается."
+  },
+  "shapes:DeadAir": {
+    "NAME": "Мёртвый Воздух",
+    "DESCRIPTION": "Наносит !D! урона ВСЕМ врагам. NL shapes:Призовите *Нептун. NL Сжигается."
+  },
+  "shapes:SkySword": {
+    "NAME": "Небесный Меч",
+    "DESCRIPTION": "Наносит !D! урона. NL shapes:Призовите *Марс. NL Сжигается."
+  },
+  "shapes:FrozenHollow": {
+    "NAME": "Леденящая Пустота",
+    "DESCRIPTION": "Даёт 1 shapes:Неуловимость если начинаете ход shapes:Ночью. NL shapes:Призовите *Плутон."
+  },
+  "shapes:Astrolabe": {
+    "NAME": "Астролябия",
+    "DESCRIPTION": "Начальная. NL Вы берёте карту, когда shapes:Призываете shapes:Планету."
+  },
+  "shapes:SwirlingShield": {
+    "NAME": "Вихревой щит",
+    "DESCRIPTION": "Даёт !M! Защиты, когда вы играете shapes:Планету."
+  },
+  "shapes:EndTimes": {
+    "NAME": "Конец Времён",
+    "DESCRIPTION": "Наносит !M! урона ВСЕМ врагам, когда вы Сжигаете shapes:Планету."
+  },
+  "shapes:Flood": {
+    "NAME": "Наводнение",
+    "DESCRIPTION": "Вы берёте !M! карты. NL shapes:Призовите *Нептун. NL Сжигается."
+  },
+  "shapes:MoltenMarble": {
+    "NAME": "Литой Мрамор",
+    "DESCRIPTION": "Эфирная. NL shapes:Призовите *Меркурий. NL shapes:Призовите *Плутон, когда Сжигается."
+  },
+  "shapes:Supersonic": {
+    "NAME": "Сверхзвук",
+    "DESCRIPTION": "Наносит !D! урона. NL Наносит !M! урона ВСЕМ врагам в начале вашего след. хода."
+  },
+  "shapes:LowBlow": {
+    "NAME": "Ниже Пояса",
+    "DESCRIPTION": "Наносит !D! урона. NL Если на врага наложена shapes:Слепота, то вы получаете [E] и берёте !M! карт."
+  },
+  "shapes:Constellation": {
+    "NAME": "Созвездие",
+    "DESCRIPTION": "Вы Предсказываете !M! карты. NL В след. ходу вы возьмёте на !shapes:UrMagic! карты больше.",
+    "UPGRADE_DESCRIPTION": "Вы Предсказываете !M! карт. NL В след. ходу вы возьмёте на !shapes:UrMagic! карты больше."
+  },
+  "shapes:Homeland": {
+    "NAME": "Родина",
+    "DESCRIPTION": "shapes:Призовите *Землю. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "shapes:Призовите *Землю+. NL Сжигается."
+  },
+  "shapes:NightBlindness": {
+    "NAME": "Ночная Слепота",
+    "DESCRIPTION": "Удваивает наложенную на врага shapes:Слепоту. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Утраивает наложенную на врага shapes:Слепоту. NL Сжигается."
+  },
+  "shapes:CutTheNight": {
+    "NAME": "Разрезать Ночь",
+    "DESCRIPTION": "Наносит !D! урона ВСЕМ врагам. NL Сжигает !M! карту в стопке добора. NL Сжигается."
+  },
+  "shapes:SpinUp": {
+    "NAME": "Раскрутиться",
+    "DESCRIPTION": "Вы берёте !M! карты. NL В след. ходу вы возьмёте на !M! карты больше."
+  },
+  "shapes:RedshiftSmack": {
+    "NAME": "Красное Смещение",
+    "DESCRIPTION": "Наносит !D! урона. NL Даёт [E] [E] в след. ходу.",
+    "UPGRADE_DESCRIPTION": "Наносит !D! урона. NL Даёт [E] [E] [E] в след. ходу."
+  },
+  "shapes:BlindSwipe": {
+    "NAME": "Отбиться Вслепую",
+    "DESCRIPTION": "Наносит !D! урона. NL Вы сбрасываете все карты в руке.",
+    "UPGRADE_DESCRIPTION": "Наносит !D! урона. NL Вы сбрасываете все карты в руке."
+  },
+  "shapes:Brightning": {
+    "NAME": "Сияние",
+    "DESCRIPTION": "Наносит !D! урона. NL Если на врага наложена shapes:Слепота, даёт !M! Буфер. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Наносит !D! урона. NL Если на врага наложена shapes:Слепота, даёт !M! Буфер."
+  },
+  "shapes:HeavensGate": {
+    "NAME": "Врата в Рай",
+    "DESCRIPTION": "Даёт !M! Защиты за каждый shapes:Призванный тип shapes:Планет в конце вашего хода.",
+    "UPGRADE_DESCRIPTION": "shapes:Призовите *Сатурн. NL Даёт !M! Защиты за каждый shapes:Призванный тип shapes:Планет в конце вашего хода."
+  },
+  "shapes:BodyStrike": {
+    "NAME": "Удар Телом",
+    "DESCRIPTION": "Наносит !D! урона. NL Если вы shapes:Призвали shapes:Планету, наносит !D! урона ещё раз."
+  },
+  "shapes:Swing": {
+    "NAME": "Размах",
+    "DESCRIPTION": "Наносит !D! урона. NL Вы кладёте в руку верхнюю shapes:Планету из стопки добора."
+  },
+  "shapes:WorldBarrier": {
+    "NAME": "Планетарный Барьер",
+    "DESCRIPTION": "Даёт !B! Защиты. NL Если в руке есть shapes:Планета, даёт !B! Защиты ещё раз."
+  },
+  "shapes:EmptySpace": {
+    "NAME": "Пустое Место",
+    "DESCRIPTION": "Вы кладёте карту из стопки сброса на верх стопки добора. NL Если это статус, даёт !B! Защиты."
+  },
+  "shapes:Manifest": {
+    "NAME": "Манифест",
+    "DESCRIPTION": "Вы разыгрываете верхнюю карту в стопке добора. NL Если это статус, наносит !M! урона ВСЕМ врагам."
+  },
+  "shapes:DarkSide": {
+    "NAME": "Тёмная Сторона",
+    "DESCRIPTION": "Наносит !D! урона. NL Вы сбрасываете ВСЕ shapes:Планеты из стопки добора."
+  },
+  "shapes:MeteorShower": {
+    "NAME": "Метеорный Дождь",
+    "DESCRIPTION": "Наносит !D! урона ВСЕМ врагам !M! раз."
+  },
+  "shapes:VaporStrike": {
+    "NAME": "Удар Паром",
+    "DESCRIPTION": "Наносит !D! урона. NL Даёт !M! shapes:Неуловимость."
+  },
+  "shapes:SkywardStrike": {
+    "NAME": "Удар с Небес",
+    "DESCRIPTION": "Наносит по !D! урона за каждый shapes:Призванный тип shapes:Планет.",
+    "EXTENDED_DESCRIPTION": [
+      " NL ( !M! раз)"
+    ]
+  },
+  "shapes:Slingshot": {
+    "NAME": "Рогатка",
+    "DESCRIPTION": "Наносит !D! урона. NL Если вы разыграли shapes:Планету на этом ходу, накладывает бесконечное shapes:Вращение на эту карту."
+  },
+  "shapes:Evaporate": {
+    "NAME": "Испариться",
+    "DESCRIPTION": "Даёт !M! Неосязаемость. NL Добавляет *Бездну в стопку добора. NL Сжигается."
+  },
+  "shapes:Cycle": {
+    "NAME": "Цикл",
+    "DESCRIPTION": "Даёт !M! Ловкости, когда вы shapes:Ждёте."
+  },
+  "shapes:MoonWall": {
+    "NAME": "Лунная Стена",
+    "DESCRIPTION": "Даёт !B! Защиты за каждый shapes:Призванный тип shapes:Планет. NL Сжигается.",
+    "EXTENDED_DESCRIPTION": [
+      " NL ( !M! раз.)"
+    ]
+  },
+  "shapes:SnuffOut": {
+    "NAME": "Потушить",
+    "DESCRIPTION": "Сжигает 1 карту. NL Если это shapes:Планета, вы берёте !M! карты и получаете [E].",
+    "UPGRADE_DESCRIPTION": "Сжигает 1 карту. NL Если это shapes:Планета, вы берёте !M! карты и получаете [E] [E]."
+  },
+  "shapes:SolarBattery": {
+    "NAME": "Солярная Батарея",
+    "DESCRIPTION": "Сохраняет энергию в конце вашего хода.",
+    "UPGRADE_DESCRIPTION": "Удваивает Энергию. NL Сохраняет энергию в конце вашего хода."
+  },
+  "shapes:GraviticWave": {
+    "NAME": "Гравитационная Волна",
+    "DESCRIPTION": "ВСЕ враги теряют X Силы. NL Даёт X Силы. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "ВСЕ враги теряют X+1 Силы. NL Даёт X+1 Силы. NL Сжигается."
+  },
+  "shapes:GreatConjunction": {
+    "NAME": "Великое Сопряжение",
+    "DESCRIPTION": "Можно разыграть, если в руке две shapes:Планеты являются соседними кртами. NL Даёт !B! Защиты. NL Наносит !D! урона.",
+    "EXTENDED_DESCRIPTION": [
+      "ВЕЛИКОЕ СОПРЯЖЕНИЕ NL ЕЩЁ НЕ НАСТАЛО!"
+    ]
+  },
+  "shapes:Sunbeam": {
+    "NAME": "Солнечный Луч",
+    "DESCRIPTION": "Наносит !D! урона. NL Накладывает !M! shapes:Слепоты."
+  },
+  "shapes:SunGun": {
+    "NAME": "Солнечный Выстрел",
+    "DESCRIPTION": "Наносит !D! урона. NL Добавляет *Ожог в стопку добора."
+  },
+  "shapes:SunBlock": {
+    "NAME": "Солнечный Щит",
+    "DESCRIPTION": "Даёт !B! Защиты. NL Накладывает !M! shapes:Слепоты."
+  },
+  "shapes:LightSwitch": {
+    "NAME": "Переключатель Света",
+    "DESCRIPTION": "shapes:Подождите. NL Вы берёте !M! карты. NL Сжигается."
+  },
+  "shapes:Scorch": {
+    "NAME": "Опалить",
+    "DESCRIPTION": "Накладывает !M! shapes:Слепоты. NL Сжигается."
+  },
+  "shapes:Cauterize": {
+    "NAME": "Прижечь Рану",
+    "DESCRIPTION": "Снимает с вас все отриц. эффекты. NL Добавляет *Ожог в стопку добора. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Снимает с вас все отриц. эффекты. NL Добавляет *Ожог в стопку добора."
+  },
+  "shapes:CosmicSlide": {
+    "NAME": "Космо-скольжение",
+    "DESCRIPTION": "Восполняет !M! HP. NL shapes:Призовите *Венеру. NL Сжигается."
+  },
+  "shapes:Disregard": {
+    "NAME": "Игнорировать",
+    "DESCRIPTION": "Наносит !D! урона. NL Вы сбрасываете !M! карты с руки. NL Вы разыгрываете ВСЕ shapes:Планеты сброшенные таким образом."
+  },
+  "shapes:Orbit": {
+    "NAME": "Орбита",
+    "DESCRIPTION": "Вы берёте !M! карты, NL затем сбрасываете !M! карты."
+  },
+  "shapes:Centerpoint": {
+    "NAME": "Центр Обращения",
+    "DESCRIPTION": "Ваши shapes:Планеты получают бесконечное shapes:Вращение."
+  },
+  "shapes:Debris": {
+    "NAME": "Осколки",
+    "DESCRIPTION": "Наносит !M! урона ВСЕМ врагам, когда карта shapes:вращается."
+  },
+  "shapes:Vacuum": {
+    "NAME": "Вакуум",
+    "DESCRIPTION": "Позволяет разыгрывать Неиграбельные Статусы — они Сжигаются. NL Даёт !M! Силы и добавляет *Головокружение в стопку добора, когда вы делаете это."
+  },
+  "shapes:Midwinter": {
+    "NAME": "Зимнее Солнцестояние",
+    "DESCRIPTION": "Даёт !B! Защиты. NL Вы сбрасываете *Восход из стопки добора или руки."
+  },
+  "shapes:Midsummer": {
+    "NAME": "Летнее Солнцестояние",
+    "DESCRIPTION": "Даёт [E] [E]. NL Вы сбрасываете *Закат из стопки добора или руки. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Даёт [E] [E]. NL Вы сбрасываете *Закат из стопки добора или руки."
+  }
+}

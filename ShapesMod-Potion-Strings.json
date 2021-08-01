@@ -1,0 +1,20 @@
+{
+  "shapes:TimePotion": {
+    "NAME": "Зелье Времени",
+    "DESCRIPTIONS": [
+      "shapes:Подождите."
+    ]
+  },
+  "shapes:DebrisPotion": {
+    "NAME": "Комета в Банке",
+    "DESCRIPTIONS": [
+      "Добавляет #b%1$s #yКометы в стопку добора, затем вы берёте #b%1$s карты."
+    ]
+  },
+  "shapes:CentrifugalPotion": {
+    "NAME": "Закупоренное Вращение",
+    "DESCRIPTIONS": [
+      "Накладывает бесконечное shapes:Вращение на все карты в руке."
+    ]
+  }
+}

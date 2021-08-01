@@ -1,0 +1,106 @@
+{
+  "shapes:InsomniaPower": {
+    "NAME": "Бессонница",
+    "DESCRIPTIONS": [
+      "Когда вы #yЖдёте, вы берёте #b%1$s карту.",
+      "Когда вы #yЖдёте, вы берёте #b%1$s карты."
+    ]
+  },
+  "shapes:PulsarPower": {
+    "NAME": "Пульсар",
+    "DESCRIPTIONS": [
+      "Накладывает #b%1$s #yСлепоты на ВСЕХ врагов в начале вашего хода."
+    ]
+  },
+  "shapes:NebulaPower": {
+    "NAME": "Туманность",
+    "DESCRIPTIONS": [
+      "Добавляет #b%1$s #yКомету в стопку добора в конце вашего хода.",
+      "Добавляет #b%1$s #yКометы в стопку добора в конце вашего хода."
+    ]
+  },
+  "shapes:HeavensGatePower": {
+    "NAME": "Врата в рай",
+    "DESCRIPTIONS": [
+      "Даёт #b%1$s Защиты за каждый #yПризванный тип #yПланет в конце вашего хода."
+    ]
+  },
+  "shapes:SolarBatteryPower": {
+    "NAME": "Солярная Батарея",
+    "DESCRIPTIONS": [
+      "Сохраняет энергию в конце вашего хода."
+    ]
+  },
+  "shapes:FrozenHollowPower": {
+    "NAME": "Леденящая Пустота",
+    "DESCRIPTIONS": [
+      "Даёт #b%1s #yНеуловимость, если вы начинаете ход #bНочью."
+    ]
+  },
+  "shapes:AstrolabePower": {
+    "NAME": "Астролябия",
+    "DESCRIPTIONS": [
+      "Когда вы #yПризываете a #yПланету, вы берёте #b%1s карту."
+    ]
+  },
+  "shapes:SwirlingShieldPower": {
+    "NAME": "Вихревой щит",
+    "DESCRIPTIONS": [
+      "Даёт #b%1s Защиты, когда вы играете #yПланету."
+    ]
+  },
+  "shapes:EndTimesPower": {
+    "NAME": "Конец Времён",
+    "DESCRIPTIONS": [
+      "Наносит #b%1s урона ВСЕМ врагам, когда вы #yСжигаете #yПланету."
+    ]
+  },
+  "shapes:CyclePower": {
+    "NAME": "Цикл",
+    "DESCRIPTIONS": [
+      "Даёт #b%1$s #yЛовкости, когда вы #yЖдёте."
+    ]
+  },
+  "shapes:BlindedPower": {
+    "NAME": "Ослепление",
+    "DESCRIPTIONS": [
+      "Когда атакован, даёт #b%1$s #yЗащиты #bНочью, или получает #b%1$s дополнительного урона #yДнём, а затем уменьшает #yОслепление на #b1."
+    ]
+  },
+  "shapes:RedGiantPower": {
+    "NAME": "Красный Гигант",
+    "DESCRIPTIONS": [
+      "#yПланеты стоят #b0 и #yсжигаются при использовании."
+    ]
+  },
+  "shapes:DamageAllEnemiesNextTurnPower": {
+    "NAME": "Сверхзвук",
+    "DESCRIPTIONS": [
+      "Наносит #b%1$s урона ВСЕМ врагам в начале вашего следующего хода, затем исчезает."
+    ]
+  },
+  "shapes:VacuumPower": {
+    "NAME": "Вакуум",
+    "DESCRIPTIONS": [
+      "Статусы можно разыграть. Когда вы делаете это, даёт #b%1$s #yСилы, и добавляет #yГоловокружение в стопку добора."
+    ]
+  },
+  "shapes:CenterpointPower": {
+    "NAME": "Centerpoint",
+    "DESCRIPTIONS": [
+      "Ваши #yПланеты #yВращаются."
+    ]
+  },
+  "shapes:DebrisPower": {
+    "NAME": "Осколки",
+    "DESCRIPTIONS": [
+      "Наносит #b%1$s урона ВСЕМ врагам, когда карта #yВращается."
+    ]
+  },
+  "shapes:NoSolarPower": {
+    "NAME": "Тепловая Смерть",
+    "DESCRIPTIONS": [
+      "Вы больше никогда не #yДождётесь #yДня."
+    ]
+  }
+}
