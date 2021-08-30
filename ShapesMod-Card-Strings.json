@@ -38,20 +38,20 @@
     "UPGRADE_DESCRIPTION": "Даёт !B! Защиты. NL Даёт [E] [E] [E] [E] в след. ходу."
   },
   "shapes:Mercury": {
-    "NAME": "Меркурий",
+    "NAME": "Mercury",
     "DESCRIPTION": "Эфирная. NL Наносит !D! урона ВСЕМ врагам дважды. NL Добавляет *Ожог в стопку добора, когда Сжигается."
   },
   "shapes:Uranus": {
-    "NAME": "Уран",
+    "NAME": "Uranus",
     "DESCRIPTION": "Эфирная. Добавляет в руку случайную shapes:Призывающую карту. NL В этом ходу она стоит 0. NL Добавляет *Бездну в стопку добора, когда Сжигается.",
     "UPGRADE_DESCRIPTION": "Эфирная. Добавляет в руку случайную shapes:Призывающую карту. NL В этом ходу она стоит 0."
   },
   "shapes:Venus": {
-    "NAME": "Венера",
+    "NAME": "Venus",
     "DESCRIPTION": "Эфирная. NL Накладывает !M! Слабости и !M! Уязвимости. NL Отнимает !shapes:UrMagic! ОЗ. NL Даёт !shapes:MetaMagic! Слабости, когда Сжигается."
   },
   "shapes:Jupiter": {
-    "NAME": "Юпитер",
+    "NAME": "Jupiter",
     "DESCRIPTION": "Эфирная. Получает !shapes:MetaMagic! shapes:Вращение. NL Даёт [E] [E] [E] , когда  shapes:Вращается. NL Добавляет *Смятение в стопку добора, когда Сжигается.",
     "EXTENDED_DESCRIPTION": [
       "Я не могу разыграть эту карту!"
@@ -66,7 +66,7 @@
     ]
   },
   "shapes:Earth": {
-    "NAME": "Земля",
+    "NAME": "Earth",
     "DESCRIPTION": "Даёт !shapes:UrMagic! Ловкости. NL Даёт !M! Ловкости, когда Сжигается. NL Добавляет *Смятение в стопку добора, когда вы берёте эту карту.",
     "UPGRADE_DESCRIPTION": "Оставляется. NL Даёт !shapes:UrMagic! Ловкости. NL Даёт !M! Ловкости, когда Сжигается. NL Добавляет *Смятение в стопку добора, когда вы берёте эту карту.",
     "EXTENDED_DESCRIPTION": [
@@ -74,11 +74,11 @@
     ]
   },
   "shapes:Saturn": {
-    "NAME": "Сатурн",
+    "NAME": "Saturn",
     "DESCRIPTION": "Эфирная. NL Даёт !B! Защиты. NL Получите !M! урона, когда Сжигается."
   },
   "shapes:Neptune": {
-    "NAME": "Нептун",
+    "NAME": "Neptune",
     "DESCRIPTION": "Эфирная. NL Вы Предсказываете !M! карты. NL Вы берёте !M! карты. NL В след. ходу вы возьмёте на !shapes:UrMagic! карту меньше, если Сжигается.",
     "UPGRADE_DESCRIPTION": "Эфирная. NL Вы Предсказываете !M! карт. NL Вы берёте !M! карт. NL В след. ходу вы возьмёте на !shapes:UrMagic! карту меньше, если Сжигается."
   },
@@ -87,7 +87,7 @@
     "DESCRIPTION": "Наносит !D! урона. NL Накладывает !M! shapes:Вращение на все карты в руке."
   },
   "shapes:Pluto": {
-    "NAME": "Плутон",
+    "NAME": "Pluto",
     "DESCRIPTION": "Эфирная. NL Отнимает !M! Силы. NL Все враги теряют !M! Силы. NL Даёт !shapes:UrMagic! shapes:Неуловимость, когда Сжигается.",
     "UPGRADE_DESCRIPTION": "Эфирная. NL Отнимает !M! Силы. NL Все враги теряют !M! Силы. NL Даёт !shapes:UrMagic! shapes:Неуловимости, когда Сжигается.",
     "EXTENDED_DESCRIPTION": [
@@ -95,7 +95,7 @@
     ]
   },
   "shapes:Mars": {
-    "NAME": "Марс",
+    "NAME": "Mars",
     "DESCRIPTION": "Эфирная. NL Даёт !shapes:UrMagic! Силы за каждую shapes:Призванную shapes:Планету. NL Даёт shapes:Опутанность, когда Сжигается.",
     "EXTENDED_DESCRIPTION": [
       " NL (Даёт !M! Силы.)"
